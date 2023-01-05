@@ -1,0 +1,118 @@
+/*for the whole application styling*/
+/* reusable styling*/
+/*Heights and width*/
+.h-screen{
+    height:100vh;
+}
+
+.w-400{
+    width:400px;
+}
+
+/*inputs*/
+input{
+    height:40px;
+    width:100%;
+    padding-left:20px;
+    border:2px solid gray;
+}
+select{
+    height:40px;
+    width:100%;
+    padding-left:20px;
+    border:2px solid gray;
+}
+
+/*cards*/
+.card{
+    border:0.08em solid gray;
+    box-shadow:0 0 1px solid rgb(189, 189, 189);
+    border-radius: 0 !important;
+    /* margin:5px; */
+
+}
+
+/* text-sizes*/
+.text-2xl{
+    font-size:30px !important
+}
+.text-xl{
+    font-size:25px !important
+}
+.text-lg{
+    font-size:20px !important
+}
+.text-md{
+    font-size:18px !important
+}
+
+.underline{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+/* buttons*/
+.primary-btn{
+    background-color: var(--primary)!important;
+    border:none;
+    color:white;
+    padding:10px 20px;
+    cursor: pointer;
+}
+
+.secondary-btn{
+    background-color: var(--secondary)!important;
+    color:white;
+    cursor:pointer;
+    border:none;
+    padding: 10px 20px;
+}
+.disabled-btn{
+    background-color: gray !important;
+    border:none !important;
+    color:white;
+    padding:10px 20px;
+    cursor: not-allowed;
+    border-radius:0 !important
+}
+button{
+    border-radius: 0 !important;
+}
+
+/* anchor tag*/
+a{
+    text-decoration: none !important;
+     color: var(--secondary) !important;
+}
+
+i{
+    font-size:20px;
+    cursor: pointer;
+}
+h1,p{
+    margin-bottom:0 !important;
+    padding-bottom:0 !important;
+}
+
+/* spinner/loader */
+.spinner-parent{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.527);
+    /* the element is always on top :z-index */
+    z-index:10000;
+
+}
+
+.spinner-border{
+    color: white !important;
+    height:50px !important;
+    width:50px !important;
+}
+
